@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    font-family: 'Comforter', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+.wrapper {
+    min-width: 1900px;
+    min-height: 1000px;
+    background: linear-gradient(115deg, pink, rgb(91, 112, 175));
+
+}
+.container {
+}
+.content{
+    display: flex;
+}
+.img {
+    
+}
+.img__top__container {
+    transform: translateY(100px);
+}
+@keyframes img__top {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.img__top {
+    width: 500px;
+    transform: translateY(100px);
+    animation-name: img__top;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    
+}
+.img__bottom__container {
+    
+}
+.img__bottom {
+    width:525px;
+    animation-name: img__bottom;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    
+}
+@keyframes img__bottom {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.text {
+    margin-top: 400px;
+    margin-left: 100px; 
+     animation-name: text;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;}
+.headline {
+    font-family: 'Comforter', cursive;
+    font-size: 75px;
+  
+
+}
+@keyframes text{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+    
+    }
+
+
+.letter {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
+.heading {
+    font-family: 'Comforter', cursive;
+    font-size: 100px;
+}
